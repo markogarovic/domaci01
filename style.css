@@ -1,0 +1,571 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lato";
+    max-width: 100%;
+}
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.part1{
+    padding-left: 10%;
+}
+.part1 .item1{
+    display: block;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    padding-right: 10%;
+    padding-top: 3rem;
+}
+.part1 .btn1 {
+	box-shadow: 0px 10px 14px -7px #FF8923;
+	background:linear-gradient(to bottom, #e08f32 5%, #fca401 100%);
+	background-color:#FF8923;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:18px 41px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    position: relative;
+    top: -1rem;
+}
+.part1 .btn1:hover {
+	background:linear-gradient(to bottom, #aa721e 5%, #915404 100%);
+	background-color:rgb(165, 92, 28);
+}
+.part1 .btn1:active {
+	position:relative;
+	top:1px;
+}
+
+.part1 .item1 > p{
+    display: inline;
+    font-weight: lighter;
+    font-size: 32;
+    color: #3D37F1;
+}
+.part1 .item1 > p > span{
+    font-weight: bold;
+}
+
+.part1 .item1 > a{
+    float: right;
+    text-decoration: none;
+    font-size: 20;
+    font-weight: bold;
+    color: #fff;
+    padding-right: 3rem;
+    
+}
+.part1 .item1 > a > button{
+    float: right;
+    text-decoration: none;
+    font-size: 20;
+    font-weight: bold;
+    color: #fff;   
+}
+
+.part1 .item1 > img{
+    position: absolute;
+    max-width: 85%;
+    top: -20px;
+    right: 0px;
+    z-index: -1;
+}
+
+.part1 .item2{
+    overflow: hidden;
+    color: #534D4D;
+    padding-right: 5%;
+}
+.part1 .item2 .leftPart{
+    float: left;
+    width: 50%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+.part1 .item2 .leftPart .txt{
+    font-size: 22;
+    padding-bottom: 3rem;
+    font-family: "Roboto";
+}
+.part1 .item2 .leftPart > h1{
+    font-size: 78;
+    font-weight: bold;
+}
+.part1 .item2 .leftPart .btn2 {
+	box-shadow: 0px 2px 8px 1px #3D37F1;
+	background-color:#3D37F1;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:18px 47px;
+    text-decoration:none;
+    position: relative;
+    left: 2rem;
+}
+.part1 .item2 .leftPart .btn2:hover {
+	background:linear-gradient(to bottom, rgb(40, 36, 156) 5%, rgb(9, 5, 114) 100%);
+	background-color:rgb(35, 43, 168);
+}
+.part1 .item2 .leftPart .btn2:active {
+	position:relative;
+	top:1px;
+}
+
+.part1 .item2 .rightPart{
+    position: relative;
+    width: 50%;
+    float: right;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+
+.part1 .item2 .rightPart img{
+    max-width: 100%;
+    position: absolute;
+    top: 3rem;
+}
+
+.part1 .item3{
+    height: 12rem;
+}
+
+.part2{
+    background-color: #FBFCFD;
+    padding-top: 5rem;
+}
+.part2 .text{
+    justify-content: center;
+    text-align: center;
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+.part2 .text h1{
+    font-size: 20;
+    font-weight: bold;
+    color: #3D37F1;
+}
+.part2 .text h2{
+    font-size: 40;
+    color: #5A5454;
+}
+.part2 .text p{
+    color: #747474;
+    font-size: 18;
+}
+.part2 .flex-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10% 5% 10%;
+}
+.part2 .flex-container div{
+    margin-right: 3%;
+    margin-left: 3%;
+    padding: 0 3%;
+    max-height: 30rem;
+    text-align: center;
+    color: #fff;
+}
+.part2 .flex-container div .imgInFlex{
+    padding: 2rem 0 1rem 0;
+}
+.part2 .flex-container div .textInFlex{
+    max-width: 90%;
+}
+.part2 .flex-container div .textInFlex h5{
+    font-size: 22;
+}
+.part2 .flex-container div .textInFlex p{
+    font-size: 16;
+}
+.part2 .flex-container div .textInFlex button{
+    padding: 1rem 1rem;
+    margin: 2rem auto;
+    color: #fff;
+    font-size: 15;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 0.1rem solid #fff;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border-radius: 30%;
+}
+.part2 .flex-container .item1{
+    background-image: linear-gradient(#FBBA77,#DFA871);
+}
+.part2 .flex-container .item2{
+    background-image: linear-gradient(#41EAE3,#2293B7);
+}
+.part2 .flex-container .item3{
+    background-image: linear-gradient(#69529F,#463864);
+}
+.part2 .flex-container .item4{
+    background-image: linear-gradient(#4386D2,#0962C5);
+}
+.part2 .flex-container .item5{
+    background-image: linear-gradient(#A5A2F6,#564FD6);
+}
+.part2 .flex-container .item6{
+    background-image: linear-gradient(#FF8088,#984141);
+}
+
+.part3{
+    background-color: #fff;
+    padding: 2.2rem;
+    height: 100%;
+}
+.part3 .split{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+.part3 .split .left{
+    padding: 10%;
+}
+.part3 .split .left img{
+    max-width: 100%;
+}
+.part3 .split .right{
+    padding: 10%;
+    margin-top: 6rem;
+}
+.part3 .split .right h3{
+    font-size: 22;
+    color: #5A5454;
+}
+.part3 .split .right p{
+    font-size: 18;
+    color: #747474;
+}
+.part3 .split .right .playbtn{
+    display: inline;
+    position: relative;
+    padding-right: 1rem;
+}
+.part3 .split .right .playbtn .under{
+    z-index: -1;
+}
+.part3 .split .right .playbtn .over{
+    position: absolute;
+    left: 2rem;
+    bottom: 1.5rem;
+}
+.part3 .split .right .other{
+    display: inline;
+    position: relative;
+    top: -2rem;
+    color: #686868;
+    font-weight: lighter;
+}
+.part3 .split .right .other *{
+    padding-right: 1rem;
+}
+
+.part4{
+    padding: 5rem 10rem;
+    height: 100%;
+    max-width: 100%;
+    background-color: #F8F8F8;
+}
+.part4 .left{
+    float: left;
+    width: 40%;
+    font-size: 22;
+    color: #747474;
+}
+.part4 .left h2{
+    font-size: 40;
+    color: #5A5454;
+}
+.part4 .left nav{
+    margin-top: 5rem;
+}
+.part4 .left nav a{
+    display: block;
+    text-decoration: none;
+    line-height: 3rem;
+    color: #969CA2;
+}
+.part4 .left nav a:hover{
+    display: block;
+    text-decoration: none;
+    line-height: 3rem;
+    color: #3D37F1;
+    text-decoration: underline;
+}
+.part4 .right{
+    float: left;
+    width: 60%;
+    position: relative;
+    max-width: 100%;
+}
+.part4 .right .flex-container{
+    display: flex;
+    
+}
+.part4 .right .flex-container div{
+    width: 12rem;
+    height: 12rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2.5rem;
+    padding: 0.5rem;
+    background-color: #FFF;
+}
+.part4 .right .flex-container div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.part5{
+    padding-top: 5rem;
+    text-align: center;
+    justify-content: center;
+}
+.part5 h1{
+    font-size: 40;
+    color: #5A5454;
+    font-weight: bold;
+}
+.part5 p{
+    font-size: 22;
+    columns: #747474;
+    font-weight: lighter;
+}
+.part5 .flex-container{
+    display: flex;
+    margin: 5rem;
+}
+.part5 .flex-container .in-flex{
+    margin: auto 5%;
+    width: 100%;
+    
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 3px 3px rgba(192, 192, 192, 0.87);
+    font-size: 18;
+    font-weight: bold;
+    color: #4B647E;
+}
+.part5 .flex-container .in-flex div{
+    width: 10vw;
+    height: 10vw;
+    margin: auto;
+    border-radius: 25px;
+    color: #fff;
+}
+.part5 .flex-container .in-flex div p{
+    font-size: 38;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 1rem;
+}
+.part5 .flex-container .in-flex .item1{
+    background-image: linear-gradient(#AF94FD,#6651F3);
+}
+.part5 .flex-container .in-flex .item2{
+    background-image: linear-gradient(#FF95A5,#FF62A3);
+}
+.part5 .flex-container .in-flex .item3{
+    background-image: linear-gradient(#FBC9A4,#FF884A);
+}
+
+.part6{
+    text-align: center;
+    justify-content: center;
+    background-color: #0C0F32;
+    color: #fff;
+    position: relative;
+    padding: 5rem 0 15rem;
+}
+.part6 h1{
+    font-size: 40;
+}
+.part6 > p{
+    color: #363956;
+    font-size: 18;
+    margin-bottom: 10rem;
+}
+.part6 .first .img div{
+    background-color: #FF992E;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    margin: auto;
+    position: relative;
+    top: -1.5rem;
+}
+.part6 .first .img div p{
+    vertical-align: middle;
+    display: inline-block;
+}
+.part6 .first{
+    max-width: 40%;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+.part6 div p{
+    font-size: 18;
+}
+.part6 div .name{
+    font-size: 24;
+    color: #8F8BFF;
+}
+.part6 .hr{
+    color: #222540;
+    max-width: 70%;
+}
+.part6 .leftP{
+    width: 50%;
+    float: left;
+    font-size: 18;
+    text-align: left;
+    padding-left: 15%;
+    color: #222540;
+}
+.part6 .leftP .different{
+    font-size: 40;
+    color: #fff;
+}
+.part6 .rightP{
+    float: left;
+    width: 50%;
+    margin-top: 5rem;
+}
+.part6 .rightP button{
+    box-shadow: 0px 2px 8px 1px #3D37F1;
+	background-color:#3D37F1;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:18px 47px;
+    text-decoration:none;
+    position: relative;
+    left: 2rem;
+}
+.part6 .rightP button:hover{
+    background:linear-gradient(to bottom, rgb(40, 36, 156) 5%, rgb(9, 5, 114) 100%);
+	background-color:rgb(35, 43, 168);
+}
+.part6 .rightP button:active{
+    position:relative;
+	top:1px;
+}
+.part7{
+    text-align: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.part8{
+    height: 100%;
+}
+.part8 > div{
+    float: left;
+    width: 50%;
+    padding: 5rem;
+}
+.part8 .left img{
+    max-width: 100%;
+}
+.part8 .right h2{
+    font-size: 22;
+    font-weight: bold;
+    color: #5A5454;
+}
+.part8 .right > p{
+    color: #747474;
+    font-size: 18;
+}
+
+.part9{
+    text-align: center;
+    justify-content: center;
+    padding: 5rem 0;
+    background-color: #FBFCFD;
+}
+.part9 > h1{
+    font-size: 40;
+    color: #5A5454;
+}
+.part9 > p{
+    max-width: 40%;
+    margin: auto;
+    padding-bottom: 3rem;
+    color: #747474;
+    font-size: 18;
+}
+.part9 .flex-container{
+    display: flex;
+    text-align: left;
+}
+.part9 .flex-container > div{
+    background-color: #fff;
+    position: relative;
+}
+.part9 .flex-container div .imgInFlex{
+    overflow: hidden;
+    width: 100%;
+    max-height: 17.5rem;
+}
+.part9 .flex-container div p{
+    font-size: 15;
+    color: #747474;
+    max-width: 75%;
+    margin: auto;
+    padding-bottom: 2rem;
+}
+.part9 .flex-container div .p1{
+    font-size: 20;
+    font-weight: bold;
+    color: #5A5454;
+}
+.part9 .flex-container div button{
+    border: none;
+    background: none;
+    
+    margin-left: 3.5rem;
+}
+.part10{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+}
+.part10 > div{
+    max-width: 25%;
+}
+.part10 .item1 a{
+    text-decoration: none;
+    font-size: 40;
+    margin-right: 2rem;
+}
+.part10 .item1 > h1{
+    font-weight: lighter;
+    font-size: 32;
+    color: #3D37F1;
+}
+.part10 .item1 > h1 > span{
+    font-weight: bold;
+}
+
+
+
